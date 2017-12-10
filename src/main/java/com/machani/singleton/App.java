@@ -27,7 +27,8 @@ public class App {
         LOGGER.info("threadSafeDoubleCheckLocking1={}", threadSafeDoubleCheckLocking1);
         LOGGER.info("threadSafeDoubleCheckLocking2={}", threadSafeDoubleCheckLocking2);
         System.out.println(String.format("First Items is %s1 and Second items is %s2", "FIRST", "SECOND"));
-		System.out.pritnln("Added new line");
+        System.out.pritnln("Added first new line");
+        System.out.pritnln("Added second new line");
 
     }
 }
